@@ -1,7 +1,7 @@
 /* customiza a barra lateral */
 
 body::-webkit-scrollbar {
-    width: 5px;               
+    width: 1%;               
 }
 
 body::-webkit-scrollbar-track {
@@ -43,7 +43,6 @@ section {
 /* estilo informações principais do conteúdo */
 
 main {
-    width: 100%;
     padding: 0 2%;
 }
 
