@@ -25,15 +25,11 @@ body {
 /* estilo conteúdo */
 
 section {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100dvw;
+    height: 100dvh;
 }
 
 /* estilo barra de navegação */
-
-header {
-    width: 100%;
-}
 
 .barraNavegacao {
     padding: 0 2%;
@@ -79,6 +75,5 @@ main {
 /* estilo rodapé */
 
 .page-footer {
-    width: 100%;
     background-color: #002B3C;
 }
