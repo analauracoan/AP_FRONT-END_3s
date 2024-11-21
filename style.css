@@ -25,7 +25,7 @@ body {
 /* estilo conteúdo */
 
 section {
-    min-width: 100dvw;
+    max-width: 100dvw;
     height: 100dvh;
 }
 
