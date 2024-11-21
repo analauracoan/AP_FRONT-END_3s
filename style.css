@@ -1,43 +1,38 @@
+/* customiza a barra lateral */
+
 body::-webkit-scrollbar {
     width: 5px;               
-  }
-  
-  body::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar-track {
     background: white;        
-  }
-  
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background-color: gray;    
     border-radius: 20px;       
     border: 3px solid t;  
-  }
+}
+
+/* estilo tela */
 
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
     background-color: #f5f5f5;
 }
+
+/* estilo conteúdo */
 
 section {
     width: 100vw;
     height: 100vh;
 }
 
-@media only screen and (max-width: 768px) {
-    section {
-        display: block;
-        min-width: 100dw;
-    }
-}
+/* estilo barra de navegação */
 
 header {
     width: 100%;
-}
-
-main {
-    width: 100%;
-    padding: 0 2%;
 }
 
 .barraNavegacao {
@@ -49,9 +44,14 @@ main {
     padding: 3%;
 }
 
-.menuNavegacao-texto {
-    font-size: 4rem;
+/* estilo informações principais do conteúdo */
+
+main {
+    width: 100%;
+    padding: 0 2%;
 }
+
+/* estilo títulos da página */
 
 .tituloPagina-texto {
     margin: 0;
@@ -69,10 +69,14 @@ main {
     font-weight: 500;
 }
 
+/* estilo botão Criar Procedimento */
+
 .botaoCriarProcedimento {
     background-color: #002B3C;
     margin-bottom: 2%;
 }
+
+/* estilo rodapé */
 
 .page-footer {
     width: 100%;
